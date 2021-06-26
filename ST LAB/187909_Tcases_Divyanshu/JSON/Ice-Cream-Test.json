@@ -1,0 +1,343 @@
+
+{
+    "system": "Ice-Cream",
+    "Cones": {
+        "testCases": [
+            {
+                "id": 0,
+                "name": "Cone='Plain'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "value": "Plain"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "No"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "No"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "No"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "No"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "No"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "No"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "No"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "No"
+                    },
+                    "Toppings.MMs": {
+                        "value": "No"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "No"
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "name": "Cone='Plenty'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "value": "Plenty"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "No"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "No"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "No"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "No"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "No"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "No"
+                    },
+                    "Toppings.MMs": {
+                        "value": "No"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "No"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "Cone='Grande'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "value": "Grande"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "No"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "No"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "No"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "No"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "No"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "Yes"
+                    },
+                    "Toppings.MMs": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "No"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "Flavors.Pistachio='Yes'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "value": "Plain"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "No"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "No"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "No"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "No"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "No"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "No"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "No"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "No"
+                    },
+                    "Toppings.MMs": {
+                        "value": "No"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "No"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "Toppings.Peppermint='Yes'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "value": "Plenty"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "No"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "No"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "No"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "No"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "No"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "No"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "No"
+                    },
+                    "Toppings.MMs": {
+                        "value": "No"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "Yes"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "Cone='Empty'",
+                "arg": {
+                    "Cone": {
+                        "failure": true,
+                        "value": "Empty"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "No"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "No"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "No"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "No"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "No"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "No"
+                    },
+                    "Toppings.Sprinkles": {
+                        "NA": true
+                    },
+                    "Toppings.Pecans": {
+                        "NA": true
+                    },
+                    "Toppings.Oreos": {
+                        "NA": true
+                    },
+                    "Toppings.Cherries": {
+                        "NA": true
+                    },
+                    "Toppings.MMs": {
+                        "NA": true
+                    },
+                    "Toppings.Peppermint": {
+                        "NA": true
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "Cone='Too-Much'",
+                "has": {
+                    "properties": "scoop,topping"
+                },
+                "arg": {
+                    "Cone": {
+                        "failure": true,
+                        "value": "Too-Much"
+                    },
+                    "Flavors.Vanilla": {
+                        "value": "No"
+                    },
+                    "Flavors.Chocolate": {
+                        "value": "No"
+                    },
+                    "Flavors.Strawberry": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Pistachio": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Lemon": {
+                        "value": "Yes"
+                    },
+                    "Flavors.Coffee": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Sprinkles": {
+                        "value": "No"
+                    },
+                    "Toppings.Pecans": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Oreos": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Cherries": {
+                        "value": "Yes"
+                    },
+                    "Toppings.MMs": {
+                        "value": "Yes"
+                    },
+                    "Toppings.Peppermint": {
+                        "value": "No"
+                    }
+                }
+            }
+        ]
+    }
+}

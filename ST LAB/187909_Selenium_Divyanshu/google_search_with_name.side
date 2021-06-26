@@ -1,0 +1,87 @@
+{
+  "id": "3f03d6d7-88cb-41e3-97ca-73326ee2897d",
+  "version": "2.0",
+  "name": "google_search",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "5a21be57-c8fc-4118-bc3e-7735befa3c09",
+    "name": "search_divyanshu_linked_in",
+    "commands": [{
+      "id": "76162a85-c4b0-4070-b6ca-69f7ac8d1f2e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80d1ffdc-dd8f-47d3-8c73-1be5ff6dfbaf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09c4b500-a118-44e7-82bb-17deed93a8c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b66774-dd91-4ec7-80b4-7a7ac33f842c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "1889fbe0-e8b0-4424-8753-9f7e7cbf7a17",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "divyanshu shrivastava linked in"
+    }, {
+      "id": "cb894094-0f3f-4e91-a436-f3ac617636b0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "5205cfec-05d1-481a-a81d-bd2eccd6db5e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a21be57-c8fc-4118-bc3e-7735befa3c09"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

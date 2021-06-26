@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<TestCases system="Ice-Cream">
+  <Function name="Cones">
+    <TestCase id="0" name="Cone=&apos;Plain&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Plain"/>
+        <Var name="Flavors.Vanilla" value="No"/>
+        <Var name="Flavors.Chocolate" value="Yes"/>
+        <Var name="Flavors.Strawberry" value="No"/>
+        <Var name="Flavors.Pistachio" value="No"/>
+        <Var name="Flavors.Lemon" value="No"/>
+        <Var name="Flavors.Coffee" value="No"/>
+        <Var name="Toppings.Sprinkles" value="Yes"/>
+        <Var name="Toppings.Pecans" value="No"/>
+        <Var name="Toppings.Oreos" value="No"/>
+        <Var name="Toppings.Cherries" value="No"/>
+        <Var name="Toppings.MMs" value="No"/>
+        <Var name="Toppings.Peppermint" value="No"/>
+      </Input>
+    </TestCase>
+    <TestCase id="1" name="Cone=&apos;Plenty&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Plenty"/>
+        <Var name="Flavors.Vanilla" value="Yes"/>
+        <Var name="Flavors.Chocolate" value="No"/>
+        <Var name="Flavors.Strawberry" value="No"/>
+        <Var name="Flavors.Pistachio" value="No"/>
+        <Var name="Flavors.Lemon" value="No"/>
+        <Var name="Flavors.Coffee" value="Yes"/>
+        <Var name="Toppings.Sprinkles" value="No"/>
+        <Var name="Toppings.Pecans" value="Yes"/>
+        <Var name="Toppings.Oreos" value="Yes"/>
+        <Var name="Toppings.Cherries" value="No"/>
+        <Var name="Toppings.MMs" value="No"/>
+        <Var name="Toppings.Peppermint" value="No"/>
+      </Input>
+    </TestCase>
+    <TestCase id="2" name="Cone=&apos;Grande&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Grande"/>
+        <Var name="Flavors.Vanilla" value="No"/>
+        <Var name="Flavors.Chocolate" value="Yes"/>
+        <Var name="Flavors.Strawberry" value="Yes"/>
+        <Var name="Flavors.Pistachio" value="No"/>
+        <Var name="Flavors.Lemon" value="Yes"/>
+        <Var name="Flavors.Coffee" value="No"/>
+        <Var name="Toppings.Sprinkles" value="Yes"/>
+        <Var name="Toppings.Pecans" value="No"/>
+        <Var name="Toppings.Oreos" value="No"/>
+        <Var name="Toppings.Cherries" value="Yes"/>
+        <Var name="Toppings.MMs" value="Yes"/>
+        <Var name="Toppings.Peppermint" value="No"/>
+      </Input>
+    </TestCase>
+    <TestCase id="3" name="Flavors.Pistachio=&apos;Yes&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Plain"/>
+        <Var name="Flavors.Vanilla" value="No"/>
+        <Var name="Flavors.Chocolate" value="No"/>
+        <Var name="Flavors.Strawberry" value="No"/>
+        <Var name="Flavors.Pistachio" value="Yes"/>
+        <Var name="Flavors.Lemon" value="No"/>
+        <Var name="Flavors.Coffee" value="No"/>
+        <Var name="Toppings.Sprinkles" value="No"/>
+        <Var name="Toppings.Pecans" value="Yes"/>
+        <Var name="Toppings.Oreos" value="No"/>
+        <Var name="Toppings.Cherries" value="No"/>
+        <Var name="Toppings.MMs" value="No"/>
+        <Var name="Toppings.Peppermint" value="No"/>
+      </Input>
+    </TestCase>
+    <TestCase id="4" name="Toppings.Peppermint=&apos;Yes&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Plenty"/>
+        <Var name="Flavors.Vanilla" value="Yes"/>
+        <Var name="Flavors.Chocolate" value="Yes"/>
+        <Var name="Flavors.Strawberry" value="No"/>
+        <Var name="Flavors.Pistachio" value="No"/>
+        <Var name="Flavors.Lemon" value="No"/>
+        <Var name="Flavors.Coffee" value="No"/>
+        <Var name="Toppings.Sprinkles" value="Yes"/>
+        <Var name="Toppings.Pecans" value="No"/>
+        <Var name="Toppings.Oreos" value="No"/>
+        <Var name="Toppings.Cherries" value="No"/>
+        <Var name="Toppings.MMs" value="No"/>
+        <Var name="Toppings.Peppermint" value="Yes"/>
+      </Input>
+    </TestCase>
+    <TestCase id="5" failure="true" name="Cone=&apos;Empty&apos;">
+      <Input type="arg">
+        <Var name="Cone" value="Empty" failure="true"/>
+        <Var name="Flavors.Vanilla" value="No"/>
+        <Var name="Flavors.Chocolate" value="No"/>
+        <Var name="Flavors.Strawberry" value="No"/>
+        <Var name="Flavors.Pistachio" value="No"/>
+        <Var name="Flavors.Lemon" value="No"/>
+        <Var name="Flavors.Coffee" value="No"/>
+        <Var name="Toppings.Sprinkles" NA="true"/>
+        <Var name="Toppings.Pecans" NA="true"/>
+        <Var name="Toppings.Oreos" NA="true"/>
+        <Var name="Toppings.Cherries" NA="true"/>
+        <Var name="Toppings.MMs" NA="true"/>
+        <Var name="Toppings.Peppermint" NA="true"/>
+      </Input>
+    </TestCase>
+    <TestCase id="6" failure="true" name="Cone=&apos;Too-Much&apos;">
+      <Has name="properties" value="scoop,topping"/>
+      <Input type="arg">
+        <Var name="Cone" value="Too-Much" failure="true"/>
+        <Var name="Flavors.Vanilla" value="No"/>
+        <Var name="Flavors.Chocolate" value="No"/>
+        <Var name="Flavors.Strawberry" value="Yes"/>
+        <Var name="Flavors.Pistachio" value="Yes"/>
+        <Var name="Flavors.Lemon" value="Yes"/>
+        <Var name="Flavors.Coffee" value="Yes"/>
+        <Var name="Toppings.Sprinkles" value="No"/>
+        <Var name="Toppings.Pecans" value="Yes"/>
+        <Var name="Toppings.Oreos" value="Yes"/>
+        <Var name="Toppings.Cherries" value="Yes"/>
+        <Var name="Toppings.MMs" value="Yes"/>
+        <Var name="Toppings.Peppermint" value="No"/>
+      </Input>
+    </TestCase>
+  </Function>
+</TestCases>

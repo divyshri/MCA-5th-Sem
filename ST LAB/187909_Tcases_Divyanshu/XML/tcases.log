@@ -1,0 +1,10 @@
+09:52:04.113 INFO  org.cornutum.tcases.Tcases - Tcases 3.4.2 (2020-08-12)
+09:52:04.149 INFO  org.cornutum.tcases.Tcases - Reading system input definition=.\.\Ice-Cream-Input.xml
+09:52:04.492 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Preparing constraint info
+09:52:04.517 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Generating test cases
+09:52:04.537 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Extended 0 valid base test cases
+09:52:04.721 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Created 5 valid test cases
+09:52:04.724 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Extended 0 base failure test cases
+09:52:04.787 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Created 2 failure test cases
+09:52:04.811 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[Cones]: Completed 7 test cases
+09:52:04.814 INFO  org.cornutum.tcases.Tcases - Updating test definition file=.\.\Ice-Cream-Test.xml
